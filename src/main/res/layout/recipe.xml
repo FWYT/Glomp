@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!--meal choice part 1-->
+    <Button
+        android:id="@+id/breakfast"
+        android:layout_width="380dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="20dp"
+        android:text = "Breakfast"
+        />
+
+
+    <Button
+        android:id="@+id/lunch"
+        android:layout_width="380dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:text = "Lunch"
+        />
+
+    <Button
+        android:id="@+id/dinner"
+        android:layout_width="380dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:text = "dinner"
+        />
+
+    <Button
+        android:id="@+id/dessert"
+        android:layout_width="380dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:text = "dessert"
+        />
+
+    <!--Protein choice part 2 -->
+    <Button
+        android:id="@+id/pork"
+        android:layout_width="380dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="20dp"
+        android:visibility="gone"
+        android:text = "pork"
+        />
+
+
+    <Button
+        android:id="@+id/beef"
+        android:layout_width="380dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:visibility="gone"
+        android:text = "beef"
+        />
+
+    <Button
+        android:id="@+id/chicken"
+        android:layout_width="380dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:visibility="gone"
+        android:text = "chicken"
+        />
+
+    <Button
+        android:id="@+id/fish"
+        android:layout_width="380dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:visibility="gone"
+        android:layout_marginRight="20dp"
+        android:text = "seafood"
+        />
+
+    <Button
+        android:id="@+id/tofu"
+        android:layout_width="380dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:visibility="gone"
+        android:layout_marginRight="20dp"
+        android:text = "Veggie"
+        />
+
+
+    <!--desserts part 2-->
+    <Button
+        android:id="@+id/pastry"
+        android:layout_width="380dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="20dp"
+        android:visibility="gone"
+        android:text = "pastry"
+        />
+
+
+    <Button
+        android:id="@+id/cake"
+        android:layout_width="380dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:visibility="gone"
+        android:text = "cake"
+        />
+
+
+    <WebView
+        android:id = "@+id/web"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_width="380dp"
+        android:layout_height="550dp"
+        android:visibility="gone">
+
+    </WebView>
+
+    <Button
+        android:id="@+id/nextRec"
+        android:layout_width="390dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:text="Another Suggestion Please!"
+        android:visibility="gone"/>
+
+</LinearLayout>

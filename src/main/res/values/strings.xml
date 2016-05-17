@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">GLOMP</string>
+    <string name="action_settings">Settings</string>
+    <string name="recipes">Recipes</string>
+    <string name="date">Date Ideas</string>
+    <string name="lm">Love Msgs</string>
+</resources>
